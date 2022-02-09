@@ -1,6 +1,6 @@
 const prompt = require("prompt-sync")()
 
-num = +prompt("Enter a number: ")
+let num = +prompt("Enter a number: ")
 
 if (num > 0) {
 while (num < 100){
